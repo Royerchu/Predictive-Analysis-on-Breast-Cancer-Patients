@@ -22,10 +22,10 @@ Back to our interest, which variables affect the decision tree to make the class
 Based on the result, **Protein4** is the most important indicator for the prediction on Patient_Status. DateDifference and Surgery_type_Lempectomy slightly impact the prediction. Other variables didn't affect the prediction since their feature importance value is around 0.
 
 In order to enhance the persuasiveness of the result, the importance feature of the decision tree model is compared to the feature importance from **Random Forest and Gradient Boosting**.
-<Feature Importance for Gradient Boosting Model>
+Feature Importance for Gradient Boosting Model
 ![ggg](https://github.com/Royerchu/Predictive-Analysis-on-Breast-Cancer-Patients/assets/125929812/e851ff17-dfa7-49a2-80c5-c66116dbc2fa)
 
-<Feature Importance for Random Forest Model>
+Feature Importance for Random Forest Model
 ![rrr](https://github.com/Royerchu/Predictive-Analysis-on-Breast-Cancer-Patients/assets/125929812/6688ebf6-8565-438c-9c9f-df8a4b56f94a)
 
 While Age stands out as the most crucial feature for the Gradient Boosting Model, Protein4 closely follows, albeit slightly behind. As for the Random Forest Model, the most significant feature is Protein4, aligning with the outcome observed in the decision tree model. In comparison to these models, **Protein4 emerges as the most crucial indicator**.
